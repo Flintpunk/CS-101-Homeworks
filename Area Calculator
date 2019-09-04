@@ -1,0 +1,17 @@
+public class RobotTest
+{
+   public static void main(String[]args)
+   {
+      double length;
+      double height;
+      double area;
+      
+      length = 2;
+      height = 4;
+      
+      area = (length + height)*2;
+      
+      System.out.println("The area is " + area);
+      
+   }
+}
