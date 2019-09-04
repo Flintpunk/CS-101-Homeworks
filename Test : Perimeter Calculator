@@ -1,0 +1,18 @@
+public class ProgramTest
+{
+   public static void main(String [] args)
+   {
+ 
+      double phoneLength;
+      double phoneHeight;
+      double phonePerimeter;
+      
+      phoneLength = 3.56;
+      phoneHeight = 6.88;
+      
+      phonePerimeter = 2*(phoneLength + phoneHeight);
+
+      System.out.println("The Perimeter of the phone is " + phonePerimeter);
+   
+   }
+} 
