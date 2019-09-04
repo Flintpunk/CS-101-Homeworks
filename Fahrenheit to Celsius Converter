@@ -1,0 +1,22 @@
+// Converts fahrenheit to celcius
+
+import java.lang.*; 
+
+public class TemperatureConversion 
+{
+   public static void main( String [] args )
+   {
+   
+      double celcius;
+      double fahrenheit;
+   
+      fahrenheit = 85;
+   
+      celcius = (fahrenheit-32)*5/9;
+   
+      System.out.println("85 degrees fahrenheit is " + celcius + " degrees celcius.");
+   
+   }
+}
+   
+   
